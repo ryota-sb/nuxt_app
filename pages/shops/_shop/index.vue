@@ -1,7 +1,7 @@
 <template>
   <v-container class="pt-0">
     <v-row justify="center" align="center">
-      <v-col class="col-md-10 col-sm-12 col-sx-12 pa-0">
+      <v-col class="col-md-12 col-sm-12 col-sx-12 pa-0">
         <v-card
          flat
          tile
@@ -21,6 +21,7 @@
         <v-card
           flat
           tile
+          class="mb-5"
         >
           <div class="d-flex justify-space-between">
             <v-card-title class="pb-0">ITEMS</v-card-title>
@@ -68,12 +69,16 @@
         <v-card
           flat
           tile
+          :style="{ background: $vuetify.theme.themes.light.secondary }"
         >
           <v-card-title>INFORMATION</v-card-title>
-          <v-list>
+          <v-card-text>
+          <v-list
+            :style="{ background: $vuetify.theme.themes.light.secondary }"
+          >
             <v-list-item>
               <v-list-item-icon>
-                <v-icon>mdi-post</v-icon>
+                <v-icon>mdi-mailbox</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
                 <v-list-item-subtitle>郵便番号</v-list-item-subtitle>
@@ -97,11 +102,11 @@
 
             <v-list-item>
               <v-list-item-icon>
-                <v-icon>mdi-phone</v-icon>
+                <v-icon>mdi-calendar-clock</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
                 <v-list-item-subtitle>営業時間</v-list-item-subtitle>
-                <v-list-item-title>{{ this.shop.phone }}</v-list-item-title>
+                <v-list-item-title>{{ this.shop.business_hours }}</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
 
@@ -109,14 +114,15 @@
 
             <v-list-item>
               <v-list-item-icon>
-                <v-icon>mdi-phone</v-icon>
+                <v-icon>mdi-calendar-remove</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
                 <v-list-item-subtitle>定休日</v-list-item-subtitle>
-                <v-list-item-title>{{ this.shop.phone }}</v-list-item-title>
+                <v-list-item-title>{{ this.shop.holiday }}</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-list>
+          </v-card-text>
         </v-card>
       </v-col>
     </v-row>

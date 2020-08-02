@@ -3,6 +3,7 @@
     <v-app-bar
       app
       fixed
+      dark
     >
       <v-app-bar-nav-icon @click="drawer = !drawer" />
       <v-toolbar-title v-text="title" />
@@ -39,7 +40,7 @@ export default {
     return {
       drawer: false,
       miniVariant: false,
-      title: 'Nuxt App',
+      title: 'SHOP',
       items: [
         {
           icon: 'mdi-home',
