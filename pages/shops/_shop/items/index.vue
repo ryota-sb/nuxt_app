@@ -4,7 +4,7 @@
       <v-col
         v-for="(item, i) in items"
         :key="i"
-        :cols="4"
+        class="col-md-4 col-sm-12 col-xs-12"
       >
         <v-card
           tile

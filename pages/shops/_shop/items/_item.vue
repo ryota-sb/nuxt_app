@@ -1,23 +1,15 @@
 <template>
   <v-container class="pa-20">
-    <v-row dense>
-      <v-col :cols="3">
-        <v-img
-          :src="this.item.img"
-        ></v-img>
-      </v-col>
-      <v-col
-        :cols="1"
-      ></v-col>
-      <v-col :cols="8">
-        <v-card>
-          <v-toolbar>
-            <v-toolbar-title>
-              購入情報
-            </v-toolbar-title>
-          </v-toolbar>
-          <v-row dense justify="center" class="mb-10">
-            <v-col :cols="10">
+    <v-row dense justify="center">
+      <v-col class="col-md-8 col-sm-10 col-xs-10">
+        <v-card tile>
+          <v-row dense justify="center" align="center" class="mb-10 mt-5 px-10 py-5">
+            <v-col class="col-md-3 col-sm-12 col-xs-12">
+              <v-img
+                :src="this.item.img"
+              ></v-img>
+            </v-col>
+            <v-col class="col-md-9 col-sm-12 col-xs-12 pa-6">
               <v-card-title class="px-0">
                 {{ this.item.name }}
               </v-card-title>
@@ -34,13 +26,13 @@
             </v-col>
           </v-row>
         </v-card>
-        <v-card>
+        <v-card tile>
           <v-toolbar>
             <v-toolbar-title>
               お客様情報
             </v-toolbar-title>
           </v-toolbar>
-          <v-row dense justify="center" class="mb-10">
+          <v-row dense justify="center" align="center" class="mb-10">
             <v-col :cols="10">
               <form>
                 <v-text-field

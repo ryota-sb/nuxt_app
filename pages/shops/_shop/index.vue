@@ -1,14 +1,14 @@
 <template>
   <v-row justify="center">
-    <v-col cols="10">
+    <v-col class="col-md-10 col-sm-12 col-sx-12">
       <v-card
        flat
        tile
       >
         <v-img
-          class="white--text"
+          class="white--text align-end"
           :src="this.shop.img"
-          height="400"
+          height="300"
         >
           <v-card-title>{{ this.shop.name }}</v-card-title>
         </v-img>
