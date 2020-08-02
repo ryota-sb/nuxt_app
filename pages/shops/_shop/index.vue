@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center">
-    <v-col class="col-md-10 col-sm-12 col-sx-12">
+    <v-col class="col-md-10 col-sm-12 col-sx-12 pa-0">
       <v-card
        flat
        tile
@@ -15,6 +15,10 @@
             {{ this.shop.prefecture + this.shop.city + this.shop.address + this.shop.building_name }}
           </v-card-subtitle>
         </v-img>
+      </v-card>
+
+      <v-card>
+        <v-card-title>INFORMATION</v-card-title>
         <v-list>
           <v-list-item>
             <v-list-item-icon>
