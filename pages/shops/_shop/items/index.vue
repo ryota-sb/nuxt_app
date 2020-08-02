@@ -6,31 +6,35 @@
         :key="i"
         class="col-md-4 col-sm-12 col-xs-12"
       >
-        <v-card
-          tile
-          flat
-          outlined
-          nuxt
-          :to="{ name: 'shops-shop-items-item', params: { item: item.key } }"
-          color=""
+        <v-hover
+          v-slot:default="{ hover }"
         >
-          <div class="d-flex flex-no-wrap justify-space-between">
-            <v-avatar
-              class="ma-3"
-              size="125"
-              tile
-            >
-              <v-img :src="item.img"></v-img>
-            </v-avatar>
-            <div>
-              <v-card-title
-                class="col-9 text-truncate"
-                v-text="item.name"
-              ></v-card-title>
-              <v-card-subtitle v-text="item.description"></v-card-subtitle>
+          <v-card
+            tile
+            flat
+            outlined
+            nuxt
+            :elevation="hover ? 10 : 2"
+            :to="{ name: 'shops-shop-items-item', params: { item: item.key } }"
+          >
+            <div class="d-flex flex-no-wrap justify-space-between">
+              <v-avatar
+                class="ma-3"
+                size="125"
+                tile
+              >
+                <v-img :src="item.img"></v-img>
+              </v-avatar>
+              <div>
+                <v-card-title
+                  class="col-9 text-truncate"
+                  v-text="item.name"
+                ></v-card-title>
+                <v-card-subtitle v-text="item.description"></v-card-subtitle>
+              </div>
             </div>
-          </div>
-        </v-card>
+          </v-card>
+        </v-hover>
       </v-col>
     </v-row>
   </v-container>
