@@ -11,6 +11,9 @@
           height="300"
         >
           <v-card-title>{{ this.shop.name }}</v-card-title>
+          <v-card-subtitle class="white--text">
+            {{ this.shop.prefecture + this.shop.city + this.shop.address + this.shop.building_name }}
+          </v-card-subtitle>
         </v-img>
         <v-list>
           <v-list-item>
@@ -18,8 +21,8 @@
               <v-icon>mdi-post</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title>{{ this.shop.zipcode }}</v-list-item-title>
               <v-list-item-subtitle>郵便番号</v-list-item-subtitle>
+              <v-list-item-title>{{ this.shop.zipcode }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
 
@@ -30,8 +33,32 @@
               <v-icon>mdi-phone</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
-              <v-list-item-title>{{ this.shop.phone }}</v-list-item-title>
               <v-list-item-subtitle>電話番号</v-list-item-subtitle>
+              <v-list-item-title>{{ this.shop.phone }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-divider inset></v-divider>
+
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-phone</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-subtitle>営業時間</v-list-item-subtitle>
+              <v-list-item-title>{{ this.shop.phone }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-divider inset></v-divider>
+
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-phone</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-subtitle>定休日</v-list-item-subtitle>
+              <v-list-item-title>{{ this.shop.phone }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list>
