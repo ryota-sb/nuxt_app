@@ -1,0 +1,146 @@
+{
+  "shop001": {
+    "name": "店名001",
+    "key": "shop001",
+    "zipcode": "123-4567",
+    "subtitle": "サブタイトル",
+    "description": "テキスト",
+    "img": "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+    "phone": "111-1111-1111",
+    "items": {
+      "item001": {
+        "name": "店名001アイテム001",
+        "key": "item001",
+        "price": 1000,
+        "description": "アイテム001です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item002": {
+        "name": "店名001アイテム002",
+        "key": "item002",
+        "price": 1000,
+        "description": "アイテム002です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item003": {
+        "name": "店名001アイテム003",
+        "key": "item003",
+        "price": 1000,
+        "description": "アイテム003です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      }
+    }
+  },
+  "shop002": {
+    "name": "店名002",
+    "key": "shop002",
+    "subtitle": "サブタイトル",
+    "description": "テキスト",
+    "img": "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+    "phone": "111-1111-1111",
+    "items": {
+      "item001": {
+        "name": "店名002アイテム001",
+        "key": "item001",
+        "description": "アイテム001です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item002": {
+        "name": "店名002アイテム002",
+        "key": "item002",
+        "description": "アイテム002です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item003": {
+        "name": "店名002アイテム003",
+        "key": "item003",
+        "description": "アイテム003です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      }
+    }
+  },
+  "shop003": {
+    "name": "店名003",
+    "key": "shop003",
+    "subtitle": "サブタイトル",
+    "description": "テキスト",
+    "img": "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+    "phone": "111-1111-1111",
+    "items": {
+      "item001": {
+        "name": "店名003アイテム001",
+        "key": "item001",
+        "description": "アイテム001です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item002": {
+        "name": "店名003アイテム002",
+        "key": "item002",
+        "description": "アイテム002です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item003": {
+        "name": "店名003アイテム003",
+        "key": "item003",
+        "description": "アイテム003です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      }
+    }
+  },
+  "shop004": {
+    "name": "店名004",
+    "key": "shop004",
+    "subtitle": "サブタイトル",
+    "description": "テキスト",
+    "img": "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+    "phone": "111-1111-1111",
+    "items": {
+      "item001": {
+        "name": "店名004アイテム001",
+        "key": "item001",
+        "description": "アイテム001です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item002": {
+        "name": "店名004アイテム002",
+        "key": "item002",
+        "description": "アイテム002です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item003": {
+        "name": "店名004アイテム003",
+        "key": "item003",
+        "description": "アイテム003です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      }
+    }
+  },
+  "shop005": {
+    "name": "店名005",
+    "key": "shop005",
+    "subtitle": "サブタイトル",
+    "description": "テキスト",
+    "img": "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+    "phone": "111-1111-1111",
+    "items": {
+      "item001": {
+        "name": "店名005アイテム001",
+        "key": "item001",
+        "description": "アイテム001です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item002": {
+        "name": "店名005アイテム002",
+        "key": "item002",
+        "description": "アイテム002です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      },
+      "item003": {
+        "name": "店名005アイテム003",
+        "key": "item003",
+        "description": "アイテム003です",
+        "img": "https://cdn.vuetifyjs.com/images/cards/halcyon.png"
+      }
+    }
+  }
+}
