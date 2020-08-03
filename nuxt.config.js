@@ -55,7 +55,7 @@ export default {
   */
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    ['@nuxtjs/pwa', { icon: false }]
   ],
   /*
   ** PWA config 
