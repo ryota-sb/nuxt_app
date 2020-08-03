@@ -28,11 +28,6 @@ export default {
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
-      },
-      { 
-        rel: 'shop_app_mobile_icon',
-        type: 'image/png',
-        href: 'https://master.d9w8yguxptjkw.amplifyapp.com' + 'shop_app_mobile_icon.png'
       }
     ]
   },
@@ -73,11 +68,16 @@ export default {
     lang: 'ja',
     short_name: 'nuxt',
     title: 'nuxt-appです',
-    'og:title': 'nuxt-appです',
     description: 'nuxt-appです',
-    'og:description': 'nuxt-appです',
     theme_color: '#ffffff',
-    background_color: '#ffffff'
+    background_color: '#ffffff',
+    icons: [
+      { 
+        src: '/img/icons/apple-touch-icon.png',
+        sizes: '512x512',
+        type: 'image/png'
+      }
+    ]
   },
   /*
   ** PWA use development
