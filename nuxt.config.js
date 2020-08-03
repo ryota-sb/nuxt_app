@@ -53,8 +53,29 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    "@nuxtjs/axios"
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa'
   ],
+  /*
+  ** PWA config 
+  */
+  manifest: {
+    name: 'nuxt-app',
+    lang: 'ja',
+    short_name: 'nuxt',
+    title: 'nuxt-appです',
+    'og:title': 'nuxt-appです',
+    description: 'nuxt-appです',
+    'og:description': 'nuxt-appです',
+    theme_color: '#ffffff',
+    background_color: '#ffffff'
+  },
+  /*
+  ** PWA use development
+  */
+  workbox: {
+    dev: true
+  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
