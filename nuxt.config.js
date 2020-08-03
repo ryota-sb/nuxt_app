@@ -82,9 +82,13 @@ export default {
   /*
   ** PWA use development
   */
-  workbox: {
-    dev: false
-  },
+
+  /*
+  **  workbox: {
+  **    dev: false
+  **  },
+  */
+
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
