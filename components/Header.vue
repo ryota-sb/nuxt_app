@@ -3,10 +3,12 @@
     <v-app-bar
       app
       fixed
-      dark
+      color="white"
     >
       <v-app-bar-nav-icon @click="drawer = !drawer" v-if="!$vuetify.breakpoint.xsOnly" />
-      <v-toolbar-title v-text="title" />
+      <v-toolbar-title v-text="title" v-if="!$vuetify.breakpoint.xs" />
+      <v-spacer />
+      <v-toolbar-title v-text="title" v-if="$vuetify.breakpoint.xs" />
       <v-spacer />
     </v-app-bar>
     <v-navigation-drawer

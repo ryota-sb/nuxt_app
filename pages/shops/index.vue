@@ -17,7 +17,7 @@
             <v-img
               class="white--text align-end"
               :src=shop.img
-              height="150px"
+              height="200px"
             >
               <v-card-title>{{ shop.name }}</v-card-title>
             </v-img>
@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import Search from '@/components/Search'
 import shops from '@/data/shops.json'
 
 export default {
@@ -36,6 +37,7 @@ export default {
     return {
       shops: shops
     }
-  }
+  },
+  components: { Search }
 }
 </script>
