@@ -5,7 +5,7 @@
       fixed
       dark
     >
-      <v-app-bar-nav-icon @click="drawer = !drawer" />
+      <v-app-bar-nav-icon @click="drawer = !drawer" v-if="!$vuetify.breakpoint.xsOnly" />
       <v-toolbar-title v-text="title" />
       <v-spacer />
     </v-app-bar>
