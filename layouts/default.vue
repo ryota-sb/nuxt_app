@@ -4,14 +4,15 @@
     <v-main>
       <nuxt />
     </v-main>
+    <BottomNav v-if="$vuetify.breakpoint.xs"/>
   </v-app>
 </template>
 
 <script>
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Header from '@/components/Header'
+import BottomNav from '@/components/BottomNav'
 
 export default {
-  components: { Header, Footer }
+  components: { Header, BottomNav }
 }
 </script>

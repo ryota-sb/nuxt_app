@@ -83,7 +83,7 @@ export default {
   ** PWA use development
   */
   workbox: {
-    dev: true
+    dev: false
   },
   /*
   ** vuetify module configuration
